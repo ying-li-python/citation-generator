@@ -2,9 +2,15 @@
 
 Writing citations for research papers is time-consuming! Instead, let's use Python to access NCBI's PubMed database when we want to retrieve article information and help create a citation in MLA format for the first *five* articles found. 
 
+## Featured 
+A step-by-step tutorial on how I wrote the program can be found [here](https://creativepython.wordpress.com/2019/04/01/biologypython-retrieve-ncbis-pubmed-articles-and-create-citations-with-python-tutorial/).
+
 ## Prerequisites
 - Python3
 - Basic knowledge of data parsing and web API 
+
+## Requirements
+- Install [Requests](https://www.pythonforbeginners.com/requests/using-requests-in-python) (Python module)
 
 ## Resources 
 - [NCBI's Entrez (API)](https://www.ncbi.nlm.nih.gov/books/NBK25500/) 

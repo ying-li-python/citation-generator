@@ -1,6 +1,8 @@
 # pubmed-search-api
 
-Writing citations for research papers is time-consuming! Instead, let's use Python to access NCBI's PubMed database when we want to retrieve article information and help create a citation in MLA format for the first *five* articles found. 
+Writing citations for research papers is time-consuming!
+
+Great news, I have created a Python program that accesses NCBI’s PubMed database (web API) and after retrieving article information, MLA citations are made for the first *five* articles found.
 
 ## Featured 
 A step-by-step tutorial on how I wrote the program can be found [here](https://creativepython.wordpress.com/2019/04/01/biologypython-retrieve-ncbis-pubmed-articles-and-create-citations-with-python-tutorial/).

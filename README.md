@@ -1,4 +1,4 @@
-# pubmed-search-api
+# Pubmed Citation Generator
 
 Writing citations for research papers is time-consuming!
 

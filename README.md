@@ -1,4 +1,5 @@
-# Pubmed Citation Generator
+# Pubmed Citation Generator [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues)
+
 
 Writing citations for research papers is time-consuming!
 

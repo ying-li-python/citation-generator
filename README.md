@@ -38,8 +38,8 @@ Chen W, Xue Y, Scarfe L, Wang D, Zhang Y. Loss of <i>Prune</i> in Circadian Cell
 ## Getting started 
 Clone the repository from github and go into the peptide-search folder in terminal.
 ```
-git clone https://github.com/ying-li-python/pubmed-search-api.git
-cd pubmed-search-api
+git clone https://github.com/ying-li-python/citation-generator.git
+cd citation-generator
 ```
 
 ## Running the script 

@@ -5,22 +5,26 @@ Writing citations for research papers is time-consuming!
 
 Great news, NCBI’s databases (web API) are accessible using Python. Thus, this program can create MLA citations for the first *five* articles found.
 
+## Demo 
+
+<img src="https://github.com/ying-li-python/citation-generator/blob/master/Images/citation-demo.gif?raw=true" height="60%">
+
 ## Featured 
-A step-by-step tutorial on how I wrote the program can be found [here](https://creativepython.wordpress.com/2019/04/01/biologypython-retrieve-ncbis-pubmed-articles-and-create-citations-with-python-tutorial/).
+Here's a [step-by-step tutorial](https://yingli.dev/blog/posts/2020-01-30-generate-citations-with-python.html) on how I wrote the program.
 
 ## How it works 
 When running the script in terminal, you will be asked to enter search terms to find your articles. Results will display the PubMed ID and citation for each of the five articles. 
 
-For example, the search terms "drosophila circadian clock" (my research focus) results in (only 1 out of 5 shown): 
+For example, the search terms "big data ETL" results in (only 1 out of 5 shown): 
 ```
-python main.py 
-Please enter a search for PubMed articles: drosophila circadian clock 
+python3 main.py 
+Please enter a search for PubMed articles: big data ETL
 ------------------------
 Beginning article search
 ------------------------
 Retrieving articles 1 of 5
-PubMed ID: 30881291
-Chen W, Xue Y, Scarfe L, Wang D, Zhang Y. Loss of <i>Prune</i> in Circadian Cells Decreases the Amplitude of the Circadian Locomotor Rhythm in <i>Drosophila</i>. Front Cell Neurosci 2019;13():76. doi: 10.3389/fncel.2019.00076
+PubMed ID: 31201587
+Godinho TM, Lebre R, Almeida JR, Costa C. ETL Framework for Real-Time Business Intelligence over Medical Imaging Repositories. J Digit Imaging 2019;32(5):870-879. doi: 10.1007/s10278-019-00184-5
 ------------------------
 ```
 
@@ -46,15 +50,11 @@ cd citation-generator
 
 Run the script in terminal and enter search terms to find your article.
 ```
-python main.py
+python3 main.py
 ```
 
 ## Results 
 You should see the first five articles showing its unique PubMed ID and citation written in MLA format. 
-
-Results for "drosophila circadian clock" as an example:
-
-<img src="https://raw.githubusercontent.com/ying-li-python/pubmed-search-api/master/Images/results.png"> 
 
 Good luck! 
 

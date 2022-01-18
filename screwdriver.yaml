@@ -1,0 +1,11 @@
+# Job definition block
+jobs:
+  main:
+    requires: [~pr, ~commit]
+    # Steps definition block.
+    steps:
+      - export_greeting: |
+          export GREETING="Hello, world!"
+      - echo_greeting: |
+          echo $GREETING
+
